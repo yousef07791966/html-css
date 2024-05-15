@@ -1,0 +1,19 @@
+div{
+    background-color:orange;
+   
+    padding: 28px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+}
+p{
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+   font-size: 30px;
+  
+    
+}

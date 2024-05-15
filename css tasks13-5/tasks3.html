@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sol3</title>
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-right: 13px; 
+    display: inline-block;
+    position: static;
+  }
+  .box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-right: 1px; 
+    display: inline-block;
+    position: static;
+  }
+  .container{
+    border: 2px dashed black;
+    height: 100px;
+    width: 452px;
+    
+  }
+  .box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-right: 1px; 
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    bottom: 1px;
+    left: 20px;
+    right: 1px;
+  }
+  .box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-right: 1px; 
+    display: inline-block;
+    position: absolute;
+    top: 380px;
+    bottom: auto;
+    left: 50px;
+    right: auto;
+  }
+</style>
+</head>
+<body>
+    <p>Position : Static</p>
+    <div class="container">
+        <div class="box">One</div>
+        <div class="box1">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+
+    <p>Position : relative</p>
+    <div class="container">
+        <div class="box">One</div>
+        <div class="box2">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+    
+    <p>Position : absolut</p>
+    <div class="container">
+        <div class="box">One</div>
+        <div class="box3">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+</body>
+</html>
